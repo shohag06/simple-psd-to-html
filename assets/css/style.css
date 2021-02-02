@@ -1,0 +1,390 @@
+/* 
+Template Name:PSD To HTML Template
+Author: Shah M Shariful I Shohag
+Version: 1.0
+*/
+
+
+/* Table of contents
+====================
+
+
+*/
+
+/* 0. Base CSS */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,900');
+@import url('<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,700&display=swap" rel="stylesheet">')
+
+.alignleft {
+	float: left;
+	margin-right: 15px;
+}
+.alignright {
+	float: right;
+	margin-left: 15px;
+}
+.aligncenter {
+	display: block;
+	margin: 0 auto 15px;
+}
+a:focus {
+	outline: 0 solid
+}
+/*img {
+	max-width: 100%;
+	height: auto;
+*/
+html,
+body {
+	height: 100%
+}
+body {
+	font-family: 'Poppins', serif;
+	background-color: #fff;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 15px;
+	line-height: 1.7em;
+	color: #333;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	font-weight: 500;
+	padding:0;
+	font-family: 'Raleway', serif;
+}
+p {
+	font-size: 14px;
+	margin-bottom: 0px;
+	line-height:28px;
+	color:#646f79;
+	letter-spacing:1px
+}
+li{
+	list-style: none;
+}
+a,
+a:hover,
+a:focus,
+input,
+textarea {
+    text-decoration: none;
+    outline: none;
+}
+a {
+	text-decoration: none;
+	color: #333;
+	-webkit-transition: .4s;
+	transition: .4s
+}
+a:hover {
+	color: #FF7200
+}
+.pt-100 {
+	padding-top: 100px;
+}
+
+.pb-100 {
+	padding-bottom: 100px;
+}
+
+.pt-50 {
+	padding-top: 50px;
+}
+
+.pb-50 {
+	padding-bottom: 50px;
+}
+
+.pl-50 {
+	padding-left: 50px;
+}
+
+.pr-50 {
+	padding-right: 50px;
+}
+
+a.box-btn {
+  background-color: tomato;
+  padding: 5px 20px;
+  display: inline-block;
+  color: #fff;
+  text-transform: capitalize;
+  border-radius: 3px;
+  font-size: 15px;
+  transition:.3s
+}
+a.box-btn:hover, a.border-btn:hover {
+	background-color: #d35400;
+}
+a.border-btn {
+  color: #fff;
+  display: inline-block;
+  padding: 4px 20px;
+  border: 1px solid tomato;
+  border-radius: 3px;
+  font-size: 15px;
+  text-transform: capitalize;
+  transition:.3s
+}
+
+/*=========Header Area CSS Start==========*/
+ .header-area{
+ 	
+    background:#87509c;
+ 	padding: 50px 0px;
+ }
+ 
+ .middle-area{
+ 	width: 85%;
+ 	margin: auto;
+ }
+ .header-top:after{
+
+ 	content: '';
+ 	display: block;
+ 	clear: both;
+ }
+ .header-left{
+ 	width: 30%;
+ 	float: left;
+ }
+ .header-right{
+ 	width: 70%;
+ 	float: left;
+ }
+ .main-menue ul:after{
+
+ 	content: '';
+ 	display: block;
+ 	clear: both;
+ }
+.main-menue ul{
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+.main-menue ul li{
+	float:left;
+
+}
+.header-right ul li a{
+	padding: 5px 20px;
+	display: block;
+	color: #fff;
+	font-size: 16px;
+	font-family: 'Titillium Web', sans-serif;
+
+	text-transform: uppercase;
+	border-radius: 5px;
+}
+.header-right ul li a:hover,.header-right ul li a.active{
+	background: #643a79;
+}
+.header-bottoom{
+	padding: 100px 0px;
+	text-align: center;
+}
+.header-bottoom h2{
+	
+	color: #f7f3ea;
+	font-size: 43px;
+	font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    line-height: 50px;
+}
+.header-bottoom a{
+	color: #fff;
+	background: #eb7d4b;
+	padding: 10px 50px;
+	font-size: 20px;
+	margin-top: 50px;
+	display: inline-block;
+	border-radius: 5px;
+	box-shadow: 0px 5px 0px #c86a40;
+}
+.header-bottoom a:hover{
+
+	box-shadow: 0px 0px 0px #c86a40;
+}
+/*=========Header Area CSS End==========*/
+
+/*=========Service Area CSS End==========*/
+ .service-area{
+ 	background: #17c2a4;
+ }
+ .service-area:after{
+ 	content: '';
+ 	display: block;
+ 	clear: both;
+ }
+.service-area .middle-area>h2{
+	color: #fff;
+	font-size: 40px;
+	font-family:'Titillium Web', sans-serif;
+	font-weight: 700;
+	text-align: center;
+	letter-spacing: 3px;
+	margin:0;
+	padding-top: 60px;
+}
+.service-area hr{
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 5px solid #14a58c;
+	width: 10%;
+}
+.service-area .middle-area>p{
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 400;
+	width: 58%;
+	text-align: center;
+	margin:auto;
+}
+
+.service-boxes{
+	text-align: center;
+	margin-top: 50px;
+}
+.service-boxes .box{
+	width: 23%;
+	float: left;
+}
+.service-boxes .box h2{
+	color: #fff;
+	font-family:'Titillium Web', sans-serif; 
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 35px 20px;
+	letter-spacing: 3px;
+}
+.service-boxes .box p{
+	color: #fff;
+	font-family:'Titillium Web', sans-serif; 
+	font-size: 16px;
+	font-weight: 400;
+	width: 82%;
+	margin: auto;
+	
+ 
+}
+/*=========Service Area CSS End==========*/
+/*=========Team Area CSS Start==========*/
+ .team-area{
+ 	background: #e7f1f8;
+ }
+ .team-area:after{
+ 	content: '';
+ 	display: block;
+ 	clear: both;
+ }
+.team-area .middle-area>h2{
+	color: #3c4761;
+	font-size: 40px;
+	font-family:'Titillium Web', sans-serif;
+	font-weight: 700;
+	text-align: center;
+	letter-spacing: 3px;
+	margin:0;
+	padding-top: 60px;
+}
+.team-area hr{
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 5px solid #c8d9e5;
+	width: 10%;
+}
+.team-area .middle-area>p{
+	color: #848e9d;
+	font-size: 18px;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 400;
+	width: 58%;
+	text-align: center;
+	margin:auto;
+}
+
+.team-boxes{
+	text-align: center;
+	margin-top: 50px;
+}
+.team-boxes .box{
+	width: 25%;
+	float: left;
+}
+.team-boxes .box h2{
+	color: #5f6371;
+	font-family:'Titillium Web', sans-serif; 
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-top: 40px;
+	margin-bottom: 10px;
+
+}
+.team-boxes .box h3{
+	color: #30bae7;
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 20px;
+
+}
+.team-boxes .box p{
+	color: #6b7487;
+	font-family:'Titillium Web', sans-serif; 
+	font-size: 16px;
+	font-weight: 400;
+	width: 82%;
+	margin: auto;
+	
+ 
+}
+.team-boxes .box img{
+	border-radius: 50%;
+}
+.social-link ul{
+	list-style: none;
+	margin:0px;
+	padding: 0px;
+}
+.social-link ul li {
+	display: inline-block;
+	margin-top: 20px;
+}
+.social-link ul li i{
+	color: #fff;
+	height: 20px;
+	width: 20px;
+	padding: 10px;
+	font-size: 20px;
+	background: #bdd1df;
+	border-radius: 50%;
+}
+
+
+::after,
+::before {
+  
+}
+/*=========Team Area CSS End==========*/
+
+
+
+
+
+
+
+
+
+
